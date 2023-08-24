@@ -372,6 +372,10 @@ article .icon{
     border-color: rgb(163,163,163);
 }
 
+.project-btn a{
+    text-decoration: none;
+}
+
 /* contact  */
 #contact{
     display: flex;
