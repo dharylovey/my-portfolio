@@ -12,13 +12,12 @@
 @media(max-width: 1200px){
     /* profile section */
     #my-profile{
-        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 50%;
-        margin: 10rem auto;
+        margin: 3rem auto;
     }
     .photo-container{
         display: flex;
@@ -70,7 +69,11 @@
 
     /* project section */
     .about-containers{
-        flex-wrap: wrap
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     /* contact section */
@@ -82,6 +85,70 @@
         display: flex;
         flex-wrap: wrap;
         width: min-content;
+    }
+}
+
+@media(max-width: 450px){
+    /* my profile section */
+    #my-profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+
+    .bg-color{
+        width: min-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* experience section */
+    #experience{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-containers{
+        width: min-content;
+    }
+    .about-containers-experience{
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+
+
+    /* project section  */
+    #project{
+        margin: auto;
+    }
+
+    .experience-details-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* contact section  */
+    #contact{
+        display: flex;
+        margin: auto;
+    }
+
+    /* bottom nav  */
+    footer nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
 
