@@ -1,6 +1,4 @@
-@media screen and (max-width: 1400px){
-   
-}
+
 
 @media screen and (max-width: 1200px){
     #desktop-nav{
@@ -10,3 +8,82 @@
         display: flex;
     }
 }
+
+@media(max-width: 1200px){
+    /* profile section */
+    #my-profile{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 10rem auto;
+    }
+    .photo-container{
+        display: flex;
+        width: 400px;
+        margin: auto ;
+    }
+
+    .section-text{
+        display: block;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    /* about section */
+    #about{
+        display: block;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 50%;
+        margin: 0 auto;
+        height: fit-content;
+    }
+    .section-container{
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about-pic{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .about-details{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    /* experience section*/
+    #experience{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    /* project section */
+    .about-containers{
+        flex-wrap: wrap
+    }
+
+    /* contact section */
+    #contact{
+        display: flex;
+    }
+
+    .contact-info-up-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: min-content;
+    }
+}
+
+
+

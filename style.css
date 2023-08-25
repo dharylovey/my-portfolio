@@ -142,7 +142,7 @@ a:hover{
 /* profile section */
 section{
     padding-top: 5vh;
-    height: 95vh;
+    /* height: 95vh; */
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -266,6 +266,8 @@ section{
 #about{
     position: relative;
     margin-top: 100px;
+    margin-bottom: 10rem;
+    height: 100vh;
 }
 
 .about-containers{
