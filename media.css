@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 1400px){
+    .contact-info-up-container{
+        width: 40%;
+    }
+}
 
 @media screen and (max-width: 1200px){
     #desktop-nav{
@@ -88,13 +92,14 @@
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 550px){
     /* my profile section */
     #my-profile{
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 10rem;
+        
     }
 
     .bg-color{
@@ -102,6 +107,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+
+    .photo-container{
+        height: auto;
     }
 
 
